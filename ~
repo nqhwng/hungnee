@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    int n;
+    cout << "\nNh?p vào s? n: ";
+    cin >> n;
+  
+    int a = n % 10;
+ 
+    int b = n / 10;
+    
+    if (n < 10 || n > 99) {
+        cout << "Nh?p vào s? có hai ch? s?!! ";
+    }
+    else {
+        
+        switch (b) {
+        case 1: cout << "Mı?i "; break;
+        case 2: cout << "Hai mıõi "; break;
+        case 3: cout << "Ba mıõi "; break;
+        case 4: cout << "B?n mıõi "; break;
+        case 5: cout << "Nãm mıõi "; break;
+        case 6: cout << "Sáu mıõi "; break;
+        case 7: cout << "B?y mıõi "; break;
+        case 8: cout << "Tám mıõi "; break;
+        case 9: cout << "Chín mıõi "; break;
+        }
+        
+        switch (a) {
+        case 1: cout << "m?t "; break;
+        case 2: cout << "hai "; break;
+        case 3: cout << "ba "; break;
+        case 4: cout << "b?n "; break;
+        case 5: cout << "lãm "; break;
+        case 6: cout << "sáu "; break;
+        case 7: cout << "b?y "; break;
+        case 8: cout << "tám "; break;
+        case 9: cout << "chín "; break;
+        }
+    }
+    cout << endl;
+    cout << "NGUYEN QUANG HUNG";
+    return 0;
+
+}
